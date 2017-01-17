@@ -1,4 +1,8 @@
 language: android
+
+before_install:
+  - chmod +x gradlew
+
 android:
   components:
     - sys-img-armeabi-v7a-android-22
