@@ -4,41 +4,41 @@ package tk.esume.magone;
  * Created by Виталий on 11.01.2017.
  */
 
-public class Heroes {
-    int maxCountHp;
-    int curCountHp;
-    int maxCountMana;
-    int curCountMana;
+public class Heroer {
+    int maxHp;
+    int currentHp;
+    int maxMana;
+    int currentMana;
 
-    public int getCurCountHp() {
-        return curCountHp;
+    public int getCurrentHp() {
+        return currentHp;
     }
 
-    public void setCurCountHp(int curCountHp) {
-        this.curCountHp = curCountHp;
+    public void setCurrentHp(int currentHp) {
+        this.currentHp = currentHp;
     }
 
-    public int getCurCountMana() {
-        return curCountMana;
+    public int getCurrentMana() {
+        return currentMana;
     }
 
-    public void setCurCountMana(int curCountMana) {
-        this.curCountMana = curCountMana;
+    public void setCurrentMana(int currentMana) {
+        this.currentMana = currentMana;
     }
 
-    public int getMaxCountHp() {
-        return maxCountHp;
+    public int getMaxHp() {
+        return maxHp;
     }
 
-    public void setMaxCountHp(int maxCountHp) {
-        this.maxCountHp = maxCountHp;
+    public void setMaxHp(int maxHp) {
+        this.maxHp = maxHp;
     }
 
-    public int getMaxCountMana() {
-        return maxCountMana;
+    public int getMaxMana() {
+        return maxMana;
     }
 
-    public void setMaxCountMana(int maxCountMana) {
-        this.maxCountMana = maxCountMana;
+    public void setMaxMana(int maxMana) {
+        this.maxMana = maxMana;
     }
 }
