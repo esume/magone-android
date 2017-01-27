@@ -1,8 +1,5 @@
 package tk.esume.magone.tk.esume.magone.essential;
 
-/**
- * Created by Виталий on 27.01.2017.
- */
 
 public class Hero {
     int maxHp;
