@@ -1,0 +1,54 @@
+{
+  "spellMap": {
+    "LIFE": {
+      "targetable": false,
+      "damage": 0,
+      "heal": 4,
+      "spellType": "Heal",
+      "effectType": "HEAL",
+      "name": "HEAL",
+      "target": "CURRENTPLAYER",
+      "description": "Простое и незамысловатое заклятие лечения, вполне подойдет для педиков",
+      "manatocut": 1,
+      "runes":["LIFE"],
+      "SpawnName":"DoubleDamage"
+    },
+    "FIRE": {
+      "targetable": true,
+      "damage": 5,
+      "heal": 0,
+      "spellType": "Damage",
+      "effectType": "FIRE",
+      "name": "FIRE",
+      "description": "Простое и незамысловатое заклятие ОГНЯ, вполне подойдет для педиков",
+      "manatocut": 1,
+      "runes":["FIRE"],
+      "SpawnName":"DoubleDamage"
+    },
+    "DEATH": {
+      "targetable": true,
+      "damage": 6,
+      "heal": 0,
+      "spellType": "Damage",
+      "effectType": "DEATH",
+      "name": "DEATH",
+      "description": "Простое и незамысловатое заклятие СМЕРТИ, вполне подойдет для педиков",
+      "manatocut": 1,
+      "runes":["DEATH"],
+      "SpawnName":""
+    },
+    "WATER": {
+      "targetable": true,
+      "damage": 1,
+      "heal": 0,
+      "spellType": "Damage",
+      "effectType": "WET",
+      "name": "WATER",
+      "description": "Простое и незамысловатое заклятие водицы, вполне подойдет для педиков",
+      "manatocut": 1,
+      "runes":["WATER"],
+      "SpawnName":""
+    }
+  }
+}
+

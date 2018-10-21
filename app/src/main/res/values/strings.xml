@@ -3,4 +3,7 @@
 
     <string name="dummy_button">Dummy Button</string>
     <string name="dummy_content">DUMMY\nCONTENT</string>
+
+    <string name="choose_unit">CHOOSE TARGET</string>
+    <string name="cast">CAST</string>
 </resources>
